@@ -1,5 +1,3 @@
-import cookieIcon from "@/assets/cookie-security-icon.png";
-
 const CookiePolicy = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -16,7 +14,7 @@ const CookiePolicy = () => {
           </div>
           <div className="hidden md:flex flex-1 justify-end">
             <img 
-              src={cookieIcon} 
+              src="/lovable-uploads/9507897e-d3c2-4582-bea0-77b4d00fc05e.png"
               alt="Cookie security icon" 
               className="w-48 h-48 object-contain"
             />
