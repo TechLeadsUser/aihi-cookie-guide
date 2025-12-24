@@ -1,5 +1,6 @@
 const CookiePolicy = () => {
-  return <div className="min-h-screen bg-background">
+  return (
+    <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="bg-gradient-aihi py-16 px-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
@@ -12,7 +13,11 @@ const CookiePolicy = () => {
             </p>
           </div>
           <div className="hidden md:flex flex-1 justify-end">
-            <img src="/lovable-uploads/9507897e-d3c2-4582-bea0-77b4d00fc05e.png" alt="Cookie security icon" className="w-48 h-48 object-contain" />
+            <img 
+              src="/lovable-uploads/9507897e-d3c2-4582-bea0-77b4d00fc05e.png"
+              alt="Cookie security icon" 
+              className="w-48 h-48 object-contain"
+            />
           </div>
         </div>
       </section>
@@ -20,7 +25,7 @@ const CookiePolicy = () => {
       {/* Copyright Notice */}
       <section className="bg-secondary py-6 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm text-muted-foreground text-left">
+          <p className="text-sm text-muted-foreground text-center">
             All contents are Copyright © 2025 AIHI. All rights reserved. Without prior written approval from AIHI Pvt. Ltd., no portion of this document may be copied/reproduced in any form or by any means.
           </p>
         </div>
@@ -153,6 +158,8 @@ const CookiePolicy = () => {
           </div>
         </div>
       </section>
-    </div>;
+    </div>
+  );
 };
+
 export default CookiePolicy;
